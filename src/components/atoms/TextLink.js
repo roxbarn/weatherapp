@@ -1,13 +1,10 @@
-import React from 'react'
+import React from 'react';
+import './TextLink.css';
 
-const TextLink = ({ onButtonClick, ...props }) => {
+const TextLink = ({ onButtonClick, linkType, ...props }) => {
     return (
-      <div>
-        <button onClick={onButtonClick}>{props.children}</button>
-      </div>
+        <div className={`TextLink ${linkType}`} onClick={onButtonClick}>{props.children}</div>
     );
   };
 
-export default TextLink
-
-
+export default TextLink;

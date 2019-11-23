@@ -1,0 +1,29 @@
+.DWblock {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.DWblock :hover{
+    transform: scale(1.1);
+}
+
+.DWtempblock {
+    display: flex;
+    justify-content: space-between;
+}
+
+.DWtitle {
+    font-size: 25pt;
+    margin: 0px;
+}
+
+.DWicon {
+    color: #ED61AB;
+    font-size: 40pt;
+    line-height: 20%;
+}
+
+.DWmaxmin {
+    font-size: 30pt;
+}
